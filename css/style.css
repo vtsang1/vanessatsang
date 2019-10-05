@@ -6517,7 +6517,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: 0rem !important; }
 
 .ml-5,
 .mx-5 {
@@ -8338,7 +8338,7 @@ h1, h2, h3, h4, h5,
             position: absolute;
             top: 0;
             bottom: 0;
-            left: 3em;
+            left: 0;
             right: 0;
             background: #000000;
             opacity: 0; }
@@ -8412,10 +8412,11 @@ h1, h2, h3, h4, h5,
           position: relative;
           z-index: 1; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
-          font-size: 60px;
+          font-size: 50px;
           color: #000000;
           line-height: 1.2;
-          font-weight: 800; }
+          font-weight: 800;
+          margin-right: 2em;  }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             font-weight: 800;
             color: #0075f6; }
@@ -8971,7 +8972,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #0075f6;
-  padding: 4em 0 0 0;
+  padding: 2em 0 0 0;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -9433,6 +9434,25 @@ textarea.form-control {
     .categories li.active a, .sidelink li.active a {
       color: #000000;
       font-style: italic; }
+
+.skills-list {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.aboutme-img {
+  width: 40%;
+  height: 40%;
+  margin-top: 0.3em;
+  margin-bottom:1.2em;
+}
+
+.h2-skills {
+  font-size: 25px !important;
+  text-transform: capitalize;
+  margin-top: 1.75em;
+}
 
 #ftco-loader {
   position: fixed;
