@@ -32,7 +32,7 @@
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
+	     <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
@@ -60,7 +60,11 @@
 		          		<span class="subheading">Hello</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Vanessa Tsang</span></h1>
 			            <h2 style="font-size:1.5em;" class="mb-4">Senior at Boston University</h2>
-			            <p><a href="#" class="btn-custom">View My Projects</a></p>
+                  <div id="ftco-nav">
+           	        <ul class="navbar-nav nav ml-auto">
+           	          <li class="nav-item"><a href="#projects-section" class="btn-custom"><span>View My Projects</span></a></li>
+           	        </ul>
+           	      </div>
 		            </div>
 		          </div>
 	        	</div>
@@ -80,7 +84,12 @@
 	    					</a>
 		          	<div class="text">
 			            <h1 class="mb-4 mt-3">I'm an aspiring <span>UX</span> designer</h1>
-			            <p><a href="#" class="btn-custom">View My Projects</a></p>
+                  <div id="ftco-nav">
+           	        <ul class="navbar-nav nav ml-auto">
+           	          <li class="nav-item"><a href="#projects-section" class="btn-custom"><span>View My Projects</span></a></li>
+           	        </ul>
+           	      </div>
+			            <!--<p><a href="#projects-section" class="btn-custom">View My Projects</a></p>-->
 		            </div>
 		          </div>
 	        	</div>
@@ -324,19 +333,22 @@
     	<div class="container">
     		<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
-          	<span class="subheading">Accomplishments</span>
-            <h2 class="mb-4">Our Projects</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          	<!--<span class="subheading">Accomplishments</span>-->
+            <h2 class="mb-4">Projects</h2>
+            <p>My portfolio of user experience projects</p>
           </div>
         </div>
     		<div class="row">
     			<div class="col-md-8">
     				<div class="project img ftco-animate img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
-    					<div class="overlay"></div>
+
+                <div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
+	    					<a href="single.html"><h3>Campus Events</h3>
+	    					<span>Web Application</span>
+                </a>
 	    				</div>
+
     				</div>
     			</div>
     			<div class="col-md-4">
@@ -345,8 +357,9 @@
 		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-			    					<span>Web Design</span>
+                    <a href="#"><h3>Let's Get this Bread</h3>
+    	    					<span>Coming Soon</span>
+                    </a>
 			    				</div>
 		    				</div>
 	    				</div>
@@ -354,8 +367,9 @@
 		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-			    					<span>Web Design</span>
+                    <a href="#"><h3>Digital Equity</h3>
+    	    					<span>Coming soon</span>
+                    </a>
 			    				</div>
 		    				</div>
 	    				</div>
@@ -382,6 +396,73 @@
     		</div>
     	</div>
     </section>
+<!--
+    <section class="ftco-section bg-light" id="blog-section">
+          <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+              <div class="col-md-7 heading-section text-center ftco-animate">
+                <span class="subheading">Blog</span>
+                <h2 class="mb-4">Our Blog</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+              </div>
+            </div>
+            <div class="row d-flex">
+              <div class="col-md-4 d-flex ftco-animate">
+              	<div class="blog-entry justify-content-end">
+                  <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+                  </a>
+                  <div class="text mt-3 float-right d-block">
+                  	<div class="d-flex align-items-center mb-3 meta">
+    	                <p class="mb-0">
+    	                	<span class="mr-2">March 23, 2019</span>
+    	                	<a href="#" class="mr-2">Admin</a>
+    	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+    	                </p>
+                    </div>
+                    <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex ftco-animate">
+              	<div class="blog-entry justify-content-end">
+                  <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+                  </a>
+                  <div class="text mt-3 float-right d-block">
+                  	<div class="d-flex align-items-center mb-3 meta">
+    	                <p class="mb-0">
+    	                	<span class="mr-2">March 23, 2019</span>
+    	                	<a href="#" class="mr-2">Admin</a>
+    	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+    	                </p>
+                    </div>
+                    <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex ftco-animate">
+              	<div class="blog-entry">
+                  <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+                  </a>
+                  <div class="text mt-3 float-right d-block">
+                  	<div class="d-flex align-items-center mb-3 meta">
+    	                <p class="mb-0">
+    	                	<span class="mr-2">March 23, 2019</span>
+    	                	<a href="#" class="mr-2">Admin</a>
+    	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+    	                </p>
+                    </div>
+                    <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+-->
+
 <!--
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
