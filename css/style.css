@@ -8521,10 +8521,10 @@ h1, h2, h3, h4, h5,
           background: #fff; }
 
 .hero-wrap {
-  width: 100%;
+  /*width: 100%;
   height: 100%;
   position: inherit;
-  background-size: cover;
+  background-size: cover;*/
   background-repeat: no-repeat; }
   .hero-wrap .overlay {
     position: absolute;
@@ -8536,15 +8536,15 @@ h1, h2, h3, h4, h5,
     opacity: 0;
     background: #000000; }
   .hero-wrap.hero-wrap-2 {
-    height: 600px;
-    position: relative;
+    /*height: 600px;
+    position: relative; */
     background-position: top center; }
     .hero-wrap.hero-wrap-2 .overlay {
       width: 100%;
       opacity: .3;
       background: #fff; }
     .hero-wrap.hero-wrap-2 .slider-text {
-      height: 600px; }
+      height: 300px; }
 
 .slider-text h1 {
   font-size: 48px;
@@ -9456,6 +9456,11 @@ textarea.form-control {
 
 .project-text-overlay {
   color: white;
+}
+
+.project-logo {
+  width: 90%;
+  margin-top: 6em;
 }
 
 #ftco-loader {
