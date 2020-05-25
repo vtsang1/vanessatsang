@@ -912,6 +912,22 @@ pre {
     padding-left:60px !important;
   }
 
+  .bg3 {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .bg3-list {
+    text-align: left;
+    padding-left: 0px !important;
+    margin-right:20px;
+  }
+
+  .bg3-li {
+    margin-top:15px;
+    padding-left: 20px;
+  }
+
 
   .col-md-7 {
     -webkit-box-flex: 0;
@@ -8022,7 +8038,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999; }
+  color: #666363; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8042,7 +8058,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(20, 64, 126, 0.9);
   font-weight: 400; }
 
 .text-primary {
