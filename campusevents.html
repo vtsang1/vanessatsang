@@ -21,8 +21,12 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
 
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
@@ -87,14 +91,32 @@
           </center>
           <div class="project-center">
             <h2 class="mb-3">The Challenge</h2>
-            <p>There is currently no single platform for students to view events happening on or around campus. Current event advertising efforts (hanging up flyers, making Facebook posts, etc.) are inefficient at reaching large and/or targeted audiences. Students miss out on opportunities due to lack of awareness, and events suffer from low attendance.</p>
+              <ul>
+                  <li>No single platform for students to view events happening on or around campus</li>
+                  <li>Traditional advertising efforts (flyers, Facebook posts, etc.) are inefficient</li>
+                  <li>Events suffer from low attendance</li>
+              </ul>
             <h2 class="mb-3 mt-5">The Solution</h2>
-            <p>CampusEvents is a web and mobile application that allows students to browse through a catalog of events happening on or around campus. Event organizers can create event pages to efficiently advertise their events to larger/targeted audiences. Event goers can use category and time filters to quickly find events of their interest. To keep track of the events they're interested in, the user can log in with their university credentials and save events directly to their personal profile.</p>
+            <p>CampusEvents is a web and mobile application that allows students to browse through a curated catalog of university-centric events happening on or around campus.</p>
             <h2 class="mb-3 mt-5">Design Process</h2>
             <h5 class="heading mb-3">User Research</h5>
               <h6 class="project-content-h6">Assumptions Map</h6>
-                <p class="project-content-text">To get a better understanding of the app's scope and assess potential risks, we created an assumptions map. We determined user assumptions, related validation tests, and risk levels. This assumptions map later helped us format our interview questions and provided a foundation for our prototype evaluation period.</p>
-                <center><img src="./images/assumptions-map.png" style="height:75%; width:75%;"></center>
+                <p class="project-content-text">To get a better understanding of the application's scope and assess potential risks, we created an assumptions map. We determined user assumptions, related validation tests, and risk levels. This assumptions map later helped us format our interview questions and provided a foundation for our prototype evaluation period.</p>
+
+                <center><img id="myImg" src="./images/assumptions-map.png" style="height:50%;width:50%;"></center>
+                <p class="modalCaption">(click image to enlarge)</p>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                </div>
+
+
+
+
+
+                <!--<center><img src="./images/assumptions-map.png" style="height:75%; width:75%;"></center>-->
                 <br>
               <h6 class="project-content-h6">Interview</h6>
                 <p class="project-content-text">We interviewed nine people, four of which were evaluated as event organizers and the other five evaluated as event goers. Two of the event organizers are fulltime employees at the Boston University Arts Initiative, while the rest of the interviewees are undergraduate students.</p>
@@ -126,8 +148,26 @@
                 </div>
               <h6 class="project-content-h6">User Persona</h6>
                 <p class="project-content-text">After synthesizing our initial research, we created two user persona maps to help us empathize with our target users during the ideation phase. Freshman Fred represents the event goer audience, while Club President Patricia represents the event organizer audience.</p>
-                    <center><img src="./images/fred.png" style="height:70%; width:70%;"></center>
-                    <center><img src="./images/patricia.png" style="height:70%; width:70%; margin:20px 0 20px 0;"></center>
+
+                    <center><img id="myImg02" src="./images/fred.png" style="height:70%; width:70%;"></center>
+                    <p class="modalCaption">(click image to enlarge)</p>
+
+                    <!-- The Modal -->
+                    <div id="myModal02" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img02">
+                    </div>
+
+                    <center><img id="myImg03" src="./images/patricia.png" style="height:70%; width:70%;"></center>
+                    <p class="modalCaption">(click image to enlarge)</p>
+
+                    <!-- The Modal -->
+                    <div id="myModal03" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img03">
+                    </div>
+
+
               <h6 class="project-content-h6">User Empathy Map</h6>
                 <p class="project-content-text">Coming soon!</p>
 
@@ -449,6 +489,87 @@
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal02");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg02");
+var modalImg = document.getElementById("img02");
+img.onclick = function(){
+modal.style.display = "block";
+modalImg.src = this.src;
+captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[1];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+</script>
+
+
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal03");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg03");
+var modalImg = document.getElementById("img03");
+img.onclick = function(){
+modal.style.display = "block";
+modalImg.src = this.src;
+captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[2];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+</script>
+
+
 
 
   <script src="js/jquery.min.js"></script>
