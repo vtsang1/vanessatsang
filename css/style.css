@@ -6687,7 +6687,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important; }
+  padding-bottom: 1rem !important; }
 
 .pl-5,
 .px-5 {
@@ -8345,7 +8345,7 @@ h1, h2, h3, h4, h5,
         background: #b3b3b3; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 850px;
+    height: 800px;
     z-index: 0; }
     .owl-carousel.home-slider:after {
       position: absolute;
@@ -8353,7 +8353,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       right: 0;
       width: 40%;
-      height: 80%;
+      height: 85%;
       background: #77b7ff;
       opacity: 1;
       content: '';
@@ -9017,7 +9017,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 3em 0;
+  padding: 2.5em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9532,8 +9532,13 @@ textarea.form-control {
 }
 
 .project-logo {
-  width: 90%;
-  margin-top: 6em;
+  width: 80%;
+  padding-bottom: 1.5em;
+}
+
+.project-logo-pf {
+  width: 25%;
+  padding-bottom: 6.5em;
 }
 
 .project-center {
