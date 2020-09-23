@@ -314,9 +314,11 @@ h4, .h4 {
 h5, .h5 {
   font-size: 1.4rem;
   border-style: solid;
+  border-width: thin;
   border-right: #f8f9fa;
   border-bottom: #f8f9fa;
-  padding: .5em 0 0 .5em;
+  border-left:#f8f9fa;
+  padding: .7em 0 0 0;
  }
 
 h6, .h6 {
@@ -486,8 +488,8 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: 8%;;
-  margin-left: 8%;
+  margin-right: 5.5%;;
+  margin-left: 5.5%;
   text-align: left;
 }
 
@@ -912,6 +914,7 @@ pre {
   .bg1 {
     margin-top: 40px;
     padding-right:60px !important;
+    padding-left: 0px !important;
   }
   .bg2 {
     margin-top: 40px;
@@ -9541,6 +9544,11 @@ textarea.form-control {
   padding-bottom: 6.5em;
 }
 
+.project-splash {
+  width: 100%;
+  margin: 0 0 1.5em 0;
+}
+
 .project-center {
   width:90%;
   margin-left:5%;
@@ -9550,11 +9558,32 @@ textarea.form-control {
   margin: 20px 0 20px 20px;
 }
 
-.project-content-h6 {
+.project-content-h6-first {
   font-size: 16px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
+.project-content-h6 {
+  font-size: 16px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.project-content-list-h6 {
+  font-size: 16px;
+  margin-top: 2em !important;
+  margin-bottom: 0.5em;
+}
+
+.splash {
+  margin-top: 10em;
+}
+
+.spacing {
+  margin-top: 30px;
+}
+
 
 #myImg {
   border-radius: 5px;
@@ -9597,7 +9626,7 @@ textarea.form-control {
 }
 
 .modalCaption {
-  font-size: 14px;
+  font-size: 11px;
   color: #000;
   text-align: center;
   margin-top: 5px;
