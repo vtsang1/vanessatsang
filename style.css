@@ -44,8 +44,7 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -314,11 +313,17 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.4rem;
+  border-style: solid;
+  border-width: thin;
+  border-right: #f8f9fa;
+  border-bottom: #f8f9fa;
+  border-left:#f8f9fa;
+  padding: .7em 0 0 0;
  }
 
 h6, .h6 {
   font-size: 1.2rem;
-}
+  color:#000;}
 
 .lead {
   font-size: 1.25rem;
@@ -483,8 +488,8 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: 7%;;
-  margin-left: 7%;
+  margin-right: 5.5%;;
+  margin-left: 5.5%;
   text-align: left;
 }
 
@@ -8052,7 +8057,7 @@ body {
   font-family: "Poppins", Arial, sans-serif !important;
   background: #fff;
   font-size: 16px;
-  line-height: 2.2;
+  line-height: 1.8;
   font-weight: 400;
   color: #666363; }
   body.menu-show {
@@ -9015,7 +9020,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 2.5em 0 0 0;
+  padding: 2.5em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9042,7 +9047,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #0075f6;
-  margin: 0;
+  margin: 3.5em 0 0 0;
   padding: 3em 0 0 0;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
@@ -9544,23 +9549,9 @@ textarea.form-control {
   margin: 0 0 1.5em 0;
 }
 
-.project-intro-section {
-  background-color: #f2f2f2;
-  width:100%;
-  padding: 4em 0 4em 0;
-  margin-bottom: 1.5em;
-}
-
-.project-reflection-section {
-  background-color: #f2f2f2;
-  width:100%;
-  padding: 6em 0 6em 0;
-  margin-top: 8em;
-}
-
 .project-center {
-  width:86%;
-  margin-left:7%;
+  width:90%;
+  margin-left:5%;
 }
 
 .project-content-text {
@@ -9568,73 +9559,25 @@ textarea.form-control {
 }
 
 .project-content-list {
-  width: 70%;
-  margin: 50px 15% 50px 15%;
-  font-size: 1.3em;
-}
-
-.project-content-list p {
-  margin: 40px 0 0 0;
-}
-
-.project-content-h5-first {
-  font-size: 1.7em;
-  margin-bottom: 1.5em;
-  color: black;
-  font-weight: 550;
-}
-
-.project-content-h5 {
-  font-size: 1.7em;
-  margin-top: 4.5em;
-  margin-bottom: 1.5em;
-  color: black;
-  font-weight: 550;
-}
-
-.project-content-h5-reflection-first {
-  font-size: 1.7em;
-  color: black;
-  font-weight: 550;
-}
-
-.project-content-h5-reflection {
-  font-size: 1.7em;
-  color: black;
-  font-weight: 550;
-  margin-top:1.5em;
+  margin: 20px 0 20px 20px;
 }
 
 .project-content-h6-first {
-  color:grey !important;
-  margin-top: 3em;
-  font-weight: 400;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .project-content-h6 {
-  color:grey !important;
-  margin-top: 5em;
-  font-weight: 400;
-}
-
-.project-content-h6-reflection {
-  color:grey !important;
-  margin-top: 1em;
-  font-weight: 400;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .project-content-list-h6 {
   font-size: 16px;
   margin-top: 2em !important;
   margin-bottom: 0.5em;
-}
-
-.project-content-list-h6-bold {
-  font-size: 16px;
-  margin-top: 2em !important;
-  margin-bottom: 0.5em;
-  color: black;
-  font-weight: 700;
 }
 
 .splash {
