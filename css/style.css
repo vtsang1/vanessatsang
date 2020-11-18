@@ -483,7 +483,16 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: 7%;;
+  text-align: left;
+}
+
+.row-bg-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 7%;
   margin-left: 7%;
   text-align: left;
 }
@@ -9559,8 +9568,106 @@ textarea.form-control {
 }
 
 .project-center {
-  width:86%;
-  margin-left:7%;
+  width:74%;
+  margin-left:13%;
+}
+
+.gif-center {
+  width:74%;
+  margin-left:13%;
+}
+    @media (min-width: 576px) {
+      .gif-center{
+        max-width: 540px;
+        width:86%;
+        margin-left:7%;
+         } }
+    @media (min-width: 768px) {
+      .gif-center {
+        max-width: 720px;
+        width:86%;
+        margin-left:7%;
+  } }
+    @media (min-width: 992px) {
+      .gif-center {
+        max-width: 960px;
+        width:80%;
+        margin-left:10%; } }
+    @media (min-width: 1200px) {
+      .gif-center {
+        max-width: 1140px;
+        width:74%;
+        margin-left:13%;
+  } }
+
+
+.project-gif {
+  margin-top: 4.5em;
+  margin-bottom: 4.5em;
+}
+
+.project-gif-text {
+  padding-top: 0%;
+  font-size: 16px;
+  float:right;
+}
+    @media (min-width: 576px) {
+      .project-gif-text {
+        max-width: 540px;
+        padding-top: 1em;
+        font-size: 16px;
+         } }
+    @media (min-width: 768px) {
+      .project-gif-text {
+        max-width: 720px;
+        padding-top: 4em;
+        font-size: 16px;
+        float:none;  } }
+    @media (min-width: 992px) {
+      .project-gif-text {
+        max-width: 960px;
+        padding-top: 6em;
+        font-size: 19px;
+        float:none; } }
+    @media (min-width: 1200px) {
+      .project-gif-text {
+        max-width: 1140px;
+        padding-top: 8em;
+        font-size: 20px;
+        float:none; } }
+
+
+.project-gif-left {
+  float: left;
+  margin-right: 4em;
+  width: 95%
+}
+    @media (min-width: 576px) {
+      .project-gif-left {
+        max-width: 540px;
+        width:91%;
+         } }
+    @media (min-width: 768px) {
+      .project-gif-left {
+        max-width: 720px;
+        width:63%;
+        margin-right: 2.5em;
+    } }
+    @media (min-width: 992px) {
+      .project-gif-left {
+        max-width: 960px;
+        width:54%;
+        margin-right: 4em;
+    } }
+    @media (min-width: 1200px) {
+      .project-gif-left {
+        max-width: 1140px;
+        width:48%;
+        margin-right: 4em;
+    } }
+
+.project-gif-right {
+  float: right;
 }
 
 .project-content-text {
@@ -9579,15 +9686,15 @@ textarea.form-control {
 
 .project-content-h5-first {
   font-size: 1.7em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.3em;
   color: black;
   font-weight: 550;
 }
 
 .project-content-h5 {
   font-size: 1.7em;
-  margin-top: 4.5em;
-  margin-bottom: 1.5em;
+  margin-top: 6em;
+  margin-bottom: 1.3em;
   color: black;
   font-weight: 550;
 }
@@ -9613,7 +9720,7 @@ textarea.form-control {
 
 .project-content-h6 {
   color:grey !important;
-  margin-top: 5em;
+  margin-top: 6em;
   font-weight: 400;
 }
 
@@ -9642,7 +9749,7 @@ textarea.form-control {
 }
 
 .spacing {
-  margin-top: 30px;
+  margin-top: 4em;
 }
 
 .description-list {
@@ -9707,8 +9814,12 @@ textarea.form-control {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 780px;
+  max-width: 830px;
+  background-color: white;
+  margin-top:2em;
 }
+
+
 
 /* Caption of Modal Image */
 #caption {
