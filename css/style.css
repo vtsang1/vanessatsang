@@ -9573,8 +9573,8 @@ textarea.form-control {
 }
 
 .gif-center {
-  width:74%;
-  margin-left:13%;
+  width:86%;
+  margin-left:7%;
 }
     @media (min-width: 576px) {
       .gif-center{
@@ -9585,25 +9585,30 @@ textarea.form-control {
     @media (min-width: 768px) {
       .gif-center {
         max-width: 720px;
-        width:86%;
-        margin-left:7%;
+        width:98%;
+        margin-left:1%;
   } }
     @media (min-width: 992px) {
       .gif-center {
         max-width: 960px;
-        width:80%;
-        margin-left:10%; } }
+        width:90%;
+        margin-left:5%; } }
     @media (min-width: 1200px) {
       .gif-center {
         max-width: 1140px;
-        width:74%;
-        margin-left:13%;
+        width:80%;
+        margin-left:10%;
   } }
 
 
 .project-gif {
-  margin-top: 4.5em;
-  margin-bottom: 4.5em;
+  margin-top: 6em;
+  margin-bottom: 10em;
+}
+
+.project-gif-solo {
+  margin-top: 6em;
+  margin-bottom: 6em;
 }
 
 .project-gif-text {
@@ -9620,7 +9625,7 @@ textarea.form-control {
     @media (min-width: 768px) {
       .project-gif-text {
         max-width: 720px;
-        padding-top: 4em;
+        padding-top: 7em;
         font-size: 16px;
         float:none;  } }
     @media (min-width: 992px) {
@@ -9650,25 +9655,54 @@ textarea.form-control {
     @media (min-width: 768px) {
       .project-gif-left {
         max-width: 720px;
-        width:63%;
+        width:58%;
         margin-right: 2.5em;
     } }
     @media (min-width: 992px) {
       .project-gif-left {
         max-width: 960px;
-        width:54%;
+        width:50%;
         margin-right: 4em;
     } }
     @media (min-width: 1200px) {
       .project-gif-left {
         max-width: 1140px;
-        width:48%;
+        width:44%;
         margin-right: 4em;
     } }
 
+
+
 .project-gif-right {
-  float: right;
-}
+      float: right;
+      margin-left: 4em;
+      width: 95%
+    }
+        @media (min-width: 576px) {
+          .project-gif-right {
+            max-width: 540px;
+            width:91%;
+             } }
+        @media (min-width: 768px) {
+          .project-gif-right {
+            max-width: 720px;
+            width:58%;
+            margin-left: 2.5em;
+        } }
+        @media (min-width: 992px) {
+          .project-gif-right {
+            max-width: 960px;
+            width:50%;
+            margin-left: 4em;
+        } }
+        @media (min-width: 1200px) {
+          .project-gif-right {
+            max-width: 1140px;
+            width:44%;
+            margin-left: 4em;
+        } }
+
+
 
 .project-content-text {
   margin: 20px 0 20px 0px;
@@ -9723,6 +9757,7 @@ textarea.form-control {
   margin-top: 6em;
   font-weight: 400;
 }
+
 
 .project-content-h6-reflection {
   color:grey !important;
