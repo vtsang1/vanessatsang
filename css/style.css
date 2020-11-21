@@ -8899,10 +8899,19 @@ h1, h2, h3, h4, h5,
     .ftco-hireme h2 span {
       font-weight: 800; }
 
+.homepage-title {
+  margin: 1.5em 0 3em 0;
+}
+
+.award {
+  height: 250px !important;
+}
+
 .project {
   width: 100%;
-  height: 285px;
-  margin-bottom: 30px;
+  height: 420px;
+  margin-top: 2em;
+  margin-bottom: 4em;
   position: relative;
   z-index: 0; }
   .project.img-2 {
@@ -8944,7 +8953,7 @@ h1, h2, h3, h4, h5,
     transition: all 0.3s ease; }
     @media (max-width: 767.98px) {
       .project .overlay {
-        opacity: .2; } }
+        opacity: .5; } }
   .project .text {
     max-width: 85%;
     z-index: 1;
@@ -9785,6 +9794,10 @@ textarea.form-control {
 
 .spacing {
   margin-top: 4em;
+}
+
+.spacing-bottom {
+  margin-bottom: 15em;
 }
 
 .description-list {
