@@ -8909,7 +8909,7 @@ h1, h2, h3, h4, h5,
 
 .project {
   width: 100%;
-  height: 420px;
+  height: 400px;
   margin-top: 2em;
   margin-bottom: 4em;
   position: relative;
@@ -8982,6 +8982,11 @@ h1, h2, h3, h4, h5,
     opacity: .9; }
   .project:hover .text, .project:focus .text {
     opacity: 1; }
+
+.project-img {
+  width:80%;
+  margin-left:10%;
+}
 
 .aside-stretch {
   background: #2a8fff; }
